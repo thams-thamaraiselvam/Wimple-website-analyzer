@@ -17,3 +17,6 @@ language=$(echo "$response" | grep "X-Powered-By:")
 
 echo "Web server: $server"
 echo "Programming language: $language"
+
+
+########  To Run: ./analyze_website.sh https://www.your_websit_name.com #######
